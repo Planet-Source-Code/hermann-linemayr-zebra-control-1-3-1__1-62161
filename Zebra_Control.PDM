@@ -1,0 +1,116 @@
+[Root]
+Most Recent Package=Setup Zebra Control
+
+
+[Package|Setup Zebra Control|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=U:\VB\Zebra Control\Setup
+
+[Package|Setup Zebra Control|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Setup Zebra Control|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Setup Zebra Control|Files Found]
+
+[Package|Setup Zebra Control|Files Released]
+
+[Package|Setup Zebra Control|Missing Dependency Information]
+
+[Package|Setup Zebra Control|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\comdlg32.ocx=
+C:\WINDOWS\system32\mswinsck.ocx=
+C:\WINDOWS\system32\MSCOMCTL.OCX=
+C:\WINDOWS\system32\richtx32.ocx=
+
+[Package|Setup Zebra Control|Files Added]
+
+[Package|Setup Zebra Control|Files Removed]
+
+[Package|Setup Zebra Control|Files In Project]
+U:\VB\Zebra Control\Zebra Control.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\VB6DE.DLL=Yes
+C:\WINDOWS\system32\richtx32.ocx=Yes
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINDOWS\system32\RCHTXDE.DLL=Yes
+C:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+C:\WINDOWS\system32\MSCMCDE.DLL=Yes
+C:\WINDOWS\system32\mscomm32.ocx=Yes
+C:\WINDOWS\system32\MSCOMDE.DLL=Yes
+C:\WINDOWS\system32\mswinsck.ocx=Yes
+C:\WINDOWS\system32\WINSKDE.DLL=Yes
+C:\WINDOWS\system32\comdlg32.ocx=Yes
+C:\WINDOWS\system32\CMDLGDE.DLL=Yes
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Setup Zebra Control|Configure Registry Files]
+Applicable=No
+
+[Package|Setup Zebra Control|Configure Remote Servers]
+Applicable=No
+
+[Package|Setup Zebra Control|Install Locations]
+U:\VB\Zebra Control\Zebra Control.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\VB6DE.DLL=$(WinSysPath)
+C:\WINDOWS\system32\richtx32.ocx=$(WinSysPath)
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\RCHTXDE.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCMCDE.DLL=$(WinSysPath)
+C:\WINDOWS\system32\mscomm32.ocx=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMDE.DLL=$(WinSysPath)
+C:\WINDOWS\system32\mswinsck.ocx=$(WinSysPath)
+C:\WINDOWS\system32\WINSKDE.DLL=$(WinSysPath)
+C:\WINDOWS\system32\comdlg32.ocx=$(WinSysPath)
+C:\WINDOWS\system32\CMDLGDE.DLL=$(WinSysPath)
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Setup Zebra Control|Configure Shared Files]
+Applicable=Yes
+U:\VB\Zebra Control\Zebra Control.exe=No
+
+[Package|Setup Zebra Control|Distribution]
+Type=single
+Size=
+Title=Zebra Control
+
+[Package|Setup Zebra Control|Package]
+PackageFolder=U:\VB\Zebra Control\Setup
+ProjectFolder=U:\VB\Zebra Control
+ServerSideCab=
+File1=U:\VB\Zebra Control\Setup\setup.exe
+File2=U:\VB\Zebra Control\Setup\Setup.Lst
+File3=U:\VB\Zebra Control\Setup\Zebra Control.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|Setup Zebra Control|IconGroups]
+Group0=Zebra Control
+PrivateGroup0=Falsch
+Parent0=$(Programs)
+
+[Package|Setup Zebra Control|Zebra Control]
+Icon1="Zebra Control.exe"
+Title1=Zebra Control
+StartIn1=$(AppPath)
+Key1=Icon1
